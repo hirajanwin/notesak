@@ -1,7 +1,7 @@
 # The Observer Pattern
 
 ## C++ Project Example
-Link: [The Weather Station](../Code/ObserverPattern/)
+Link: [The Weather Station](https://github.com/akormous/design-patterns/tree/main/Code/ObserverPattern/)
 
 ## Theory
 It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.

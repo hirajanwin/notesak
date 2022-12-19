@@ -73,7 +73,7 @@ DISCLAIMER: If you don't know what a tree is, don't read the rest of this page.
 * A min-heap is a *complete* binary tree, where each node is smaller than its children
 * The root is the minimum element in the tree
 * There are 2 key operations on min-heap `insert` and `extract_min`
-* [Min Heap Implementation](../0_Basics/MinHeap.cpp)
+* [Min Heap Implementation](https://github.com/akormous/dsa/tree/master/0_Basics/MinHeap.cpp)
 
 `insert`
 - Insert the new element at the bottomost rightmost spot (as to maintain the complete binary tree property)
@@ -94,7 +94,7 @@ DISCLAIMER: If you don't know what a tree is, don't read the rest of this page.
 * A max-heap is a *complete* binary tree, where each node is larger than its children
 * The root is the maximum element in the tree
 * There are 2 key operations on max-heap `insert` and `extract_max`
-* [Max Heap Implementation](../0_Basics/MaxHeap.cpp)
+* [Max Heap Implementation](https://github.com/akormous/dsa/tree/master/0_Basics/MaxHeap.cpp)
 
 `insert`
 - Insert the new element at the bottomost rightmost spot (as to maintain the complete binary tree property)
@@ -130,7 +130,7 @@ DISCLAIMER: If you don't know what a tree is, don't read the rest of this page.
     - A value, which might be NULL
     - An array of reference to child nodes which also might be NULL
 
-* [Trie Implementation](../0_Basics/Trie.cpp)
+* [Trie Implementation](https://github.com/akormous/dsa/tree/master/0_Basics/Trie.cpp)
 
 ![Trie](./public/Trie.png "Trie Data Structure Example")
 
@@ -207,7 +207,7 @@ There are 2 operations
 
 </details>
 
-[Fenwick Tree Implementation](./FenwickTree.cpp)
+[Fenwick Tree Implementation](https://github.com/akormous/dsa/blob/master/5_Trees_and_Graphs/FenwickTree.cpp)
 
 ---
 
@@ -303,7 +303,7 @@ There are 2 operations
 # Algorithms
 
 ## Depth-first Search
-[DFS code](./DFS.cpp)
+[DFS code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/DFS.cpp)
 <details>
     <summary>What can DFS do?</summary>
 
@@ -327,7 +327,7 @@ There are 2 operations
 ---
 
 ## Breadth-first Search
-[BFS code](./BFS.cpp)
+[BFS code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/BFS.cpp)
 <details>
     <summary>What can BFS do?</summary>
 
@@ -345,7 +345,7 @@ There are 2 operations
 ---
 
 ## Topological Sort
-[Topological Sort Code](./TopologicalSort.cpp)
+[Topological Sort Code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/TopologicalSort.cpp)
 - It is only for Directed Acyclic Graphs (DAG)
 - It is a linear ordering of vertices such that for every directed edge _(u,v)_ , vertex _u_ comes before _v_ in the ordering
 - Time Complexity = `O(V + E)`
@@ -363,7 +363,7 @@ There are 2 operations
 ---
 
 ## Single-Source Shortest Path in a DAG
-[SSSPDAG Code](./ShortestPathDAG.cpp)
+[SSSPDAG Code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/ShortestPathDAG.cpp)
 - Popular application of Topological Sort
 - Find the shortest path from one given source node to every other node in the graph
 - Only valid for DAGs though
@@ -371,7 +371,7 @@ There are 2 operations
 ---
 
 ## Dijkstra's Algorithm
-[Dijkstra's Code](./DijkstrasAlgorithm.cpp)
+[Dijkstra's Code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/DijkstrasAlgorithm.cpp)
 
 <details>
     <summary>Algorithm</summary>
@@ -394,7 +394,7 @@ There are 2 operations
 ---
 
 ## Bellman-Ford Algorithm
-[Bellman-Ford code](./BellmanFord.cpp)
+[Bellman-Ford code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/BellmanFord.cpp)
 
 <details>
     <summary>Algorithm</summary>
@@ -419,7 +419,7 @@ There are 2 operations
 ---
 
 ## Floyd-Warshall Algorithm
-[Floyd-Warshall code](./FloydWarshall.cpp)
+[Floyd-Warshall code](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/FloydWarshall.cpp)
 
 <details>
     <summary>Algorithm</summary>
@@ -488,7 +488,7 @@ Bridges and articulation points are important because they often hint at *weak p
 The low-link value of a node is the smallest (lowest) id reachable from that node when doing a DFS (including itself)
 
 ## Tarjans Algorithm for finding bridges
-Code - [Find Bridges](./FindBridgesInAGraph.cpp)
+Code - [Find Bridges](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/FindBridgesInAGraph.cpp)
 
 ---
 
@@ -534,4 +534,4 @@ Depends on the kind of graph:
 
 **Finding an Eulerian Path - Time Complexity - `O(E)`**
 
-Code - [Reconstruct Itinerary LC332](./EulerianPath.cpp)
+Code - [Reconstruct Itinerary LC332](https://github.com/akormous/dsa/blob/master/0_Basics/Trees_and_Graphs/EulerianPath.cpp)

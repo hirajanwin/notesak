@@ -1,7 +1,7 @@
 # The Decorator Pattern
 
 ## C++ Project Example
-Link: [Starbucks Order System](../Code/DecoratorPattern/)
+Link: [Starbucks Order System](https://github.com/akormous/design-patterns/tree/main/Code/DecoratorPattern/)
 
 ## Theory
 

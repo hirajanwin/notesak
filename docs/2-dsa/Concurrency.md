@@ -78,4 +78,4 @@ Moreover, `unique_lock` is more flexible than `lock_guard`
 
 `unique_lock` manages the locking and unlocking on a mutex object with exclusive ownership (no other `unique_lock` objects owning the ownership of a mutex). So, it is recommended to use `unique_lock` in concurrent programming. Below example uses `unique_lock`
 
-Code: [Mutex Basics](../9_Concurrency/MutexBasics.cpp)
+Code: [Mutex Basics](https://github.com/akormous/dsa/tree/master/9_Concurrency/MutexBasics.cpp)

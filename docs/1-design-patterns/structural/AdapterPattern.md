@@ -1,7 +1,7 @@
 # The Adapter Pattern
 
 ## C++ Project Example
-Link: [Turkey and Duck](../Code/AdapterPattern/)
+Link: [Turkey and Duck](https://github.com/akormous/design-patterns/tree/main/Code/AdapterPattern/)
 
 ## Theory
 

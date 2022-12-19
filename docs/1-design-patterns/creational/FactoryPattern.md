@@ -1,7 +1,7 @@
 # The Factory Method Pattern
 
 ## C++ Project Example
-Link: [Pizza Business](../Code/FactoryPattern/)
+Link: [Pizza Business](https://github.com/akormous/design-patterns/tree/main/Code/FactoryPattern/)
 
 ## Theory
 

@@ -1,7 +1,7 @@
 # The Strategy Pattern
 
 ## C++ Project Example
-Link: [Duck Simulator](../Code/StrategyPattern/)
+Link: [Duck Simulator](https://github.com/akormous/design-patterns/tree/main/Code/StrategyPattern/)
 
 ## Theory
 It defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.

@@ -1,7 +1,7 @@
 # The Singleton pattern
 
 ## C++ Project Example
-Link: [Chocolate Factory](../Code/SingletonPattern/)
+Link: [Chocolate Factory](https://github.com/akormous/design-patterns/tree/main/Code/SingletonPattern/)
 
 The Singleton pattern ensures a class has only one instance, and provides a global point of access to it.
 
