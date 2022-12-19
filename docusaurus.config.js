@@ -9,7 +9,7 @@ const config = {
   title: 'Akshat Chauhan\'s Notes',
   tagline: 'lil bro becoming better at software engineering and life',
   url: 'https://akormous.github.io',
-  baseUrl: '/',
+  baseUrl: '/notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-32x32.png',

@@ -14,27 +14,27 @@ const DocItemList: DocItem[] = [
     {
         title: "Design Patterns",
         description: "Low-level design - how to create classes and stuff",
-        link: "/docs/design-patterns"
+        link: "/notes/docs/design-patterns"
     },
     {
         title: "Data Structures and Algorithms",
         description: "Arrays, Trees, Graphs, Backtracking, DP, Greedy",
-        link: "/docs/dsa"
+        link: "/notes/docs/dsa"
     },
     {
         title: "Docker and Kubernetes",
         description: "Good stuff of DevOps",
-        link: "/docs/docker-kubernetes"
+        link: "/notes/docs/docker-kubernetes"
     },
     {
         title: "Psychology of Money",
         description: "How do you behave in front of money?",
-        link: "/docs/condensed-books/psychology-of-money"
+        link: "/notes/docs/condensed-books/psychology-of-money"
     },
     {
         title: "Designing Data Intensive Applications",
         description: "Epic notes from DDIA book",
-        link: "/docs/condensed-books/designing-data-intensive-applications"
+        link: "/notes/docs/condensed-books/designing-data-intensive-applications"
     },
 ];
 
