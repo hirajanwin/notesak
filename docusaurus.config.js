@@ -78,12 +78,12 @@ const config = {
             type: 'doc',
             docId: 'Index',
             position: 'right',
-            label: 'All Docs',
+            label: 'Get Started',
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/akormous/notes',
+            label: 'Contribute',
             position: 'right',
           },
         ],
@@ -98,22 +98,26 @@ const config = {
                 label: 'DSA',
                 to: '/docs/dsa',
               },
+              {
+                label: 'Design Patterns',
+                to: '/docs/design-patterns',
+              },
+              {
+                label: 'Docker and K8s',
+                to: '/docs/docker-kubernetes',
+              },
+              {
+                label: 'Psychology of Money',
+                to: '/docs/condensed-books/psychology-of-money',
+              },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/akormous',
               },
             ],
           },
@@ -126,12 +130,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/akormous',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Akshat's Notes`,
       },
       prism: {
         theme: lightCodeTheme,
