@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Akshat Chauhan\'s Notes',
-  tagline: 'lil bro becoming better at software engineering and life',
+  tagline: 'Concepts of Software Engineering and life in general',
   url: 'https://akormous.github.io',
   baseUrl: '/notes/',
   onBrokenLinks: 'throw',
@@ -64,11 +64,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        disableSwitch: false,
+        disableSwitch: true,
         defaultMode: 'dark',
       },
       navbar: {
-        title: 'Akshat\'s Notes',
+        title: 'akshat\'s notes',
         logo: {
           alt: 'Akshat Chauhan\'s Notes',
           src: 'img/logo.png',

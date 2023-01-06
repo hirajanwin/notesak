@@ -22,13 +22,18 @@ const DocItemList: DocItem[] = [
         link: "/notes/docs/dsa"
     },
     {
+        title: "React State Management",
+        description: "React hooks and stuff, very nice to know",
+        link: "/notes/docs/react"
+    },
+    {
         title: "Docker and Kubernetes",
         description: "Good stuff of DevOps",
         link: "/notes/docs/docker-kubernetes"
     },
     {
         title: "Psychology of Money",
-        description: "How do you behave in front of money?",
+        description: "How do you behave with money?",
         link: "/notes/docs/condensed-books/psychology-of-money"
     },
     {
@@ -42,10 +47,11 @@ const CustomCard = ({title, description, link} : {title: string; description: st
     <Card sx={{
         height: '100%',
         cursor: 'default',
-        transition: 'all 0.2s',
-        backgroundColor: 'var(--ifm-color-primary-lightest)',
+        backgroundColor: 'var(--ifm-color-primary-darker)',
+        color: 'var(--ifm-color-font-light)',
         '&: hover': {
-            backgroundColor: 'var(--ifm-color-primary-light)',
+            color: 'var(--ifm-color-primary-lightest)',
+            boxShadow: '0 0 10px var(--ifm-color-primary-lightest)',
         }
     }}
     onClick={() => window.open(link)}
@@ -62,25 +68,34 @@ const CustomCard = ({title, description, link} : {title: string; description: st
 
 export default function Featured(): JSX.Element {
     return (
-        <>
+        <div style={{
+            height: '100%',
+            paddingBlock: '100px',
+            background: 'linear-gradient(var(--docusaurus-highlighted-code-line-bg), var(--ifm-color-primary-darkest))',
+        }}>
         <Container sx={{
             display: 'flex',
             flexDirection: 'column',
             textAlign: 'center',
             justifyContent: 'center',
             height: '100%',
-            marginBlock: '10vh'
+            paddingBottom: '100px'
         }}>
-            <h1 className="hero__title">Featured</h1>
+            <h1 style={{
+                fontSize: '7vw',
+                marginBlock: '100px'
+            }}>
+            featured
+            </h1>
             <Grid container spacing={3}>
                 {DocItemList.map((props, idx) => (
-                    <Grid item xs={12} md={4} key={idx}>
+                    <Grid item xs={12} md={6} key={idx}>
                         <CustomCard title={props.title} description={props.description} link={props.link} />
                     </Grid>
                 ))}
             </Grid>
         </Container>
-        </>
+        </div>
     );
 }
 

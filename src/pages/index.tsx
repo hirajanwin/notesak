@@ -6,36 +6,17 @@ import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 import Featured from '../components/Featured';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog/first-blog">
-            Who am I?
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import Hero from '../components/Hero';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Notes made by Akshat Chauhan">
-      <HomepageHeader />
-      
+      description="Notes made by Akshat Chauhan"
+      >
+        <Hero />
         <Featured />
-      
     </Layout>
   );
 }
