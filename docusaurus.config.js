@@ -63,6 +63,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: 'MFW7QHKU1R',
+        indexName: 'akormous',
+        apiKey: 'b9bdae3e5a8d943035448470f2098368'
+      },
       colorMode: {
         disableSwitch: true,
         defaultMode: 'dark',
