@@ -13,6 +13,7 @@ It is a distributed hashing scheme that operates independently of the number of 
 
 Example,
 for the following data
+
 | Key  | Hash | Angle (in °) |
 |------|------|-------|
 | sova |  79  |  56   |
