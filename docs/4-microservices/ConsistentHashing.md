@@ -1,4 +1,4 @@
-# Distributed Hashing
+# Distributed Cache
 
 Splitting a hash table into several parts hosted by different servers.
 
