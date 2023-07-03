@@ -10,7 +10,7 @@ Link: [Gumball Machine Monitoring](https://github.com/akormous/design-patterns/t
 - Local Representative is an object that you can call methods on and have them forwarded on to the remote object.
 
 ## Remote Method Call
-![Remote Method Call](./public/ProxyPattern.png)
+![Remote Method Call](../public/ProxyPattern.png)
 
 ### Java RMI (Remote Method Invocation)
 - RMI creates the client and service helper objects
